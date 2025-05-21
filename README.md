@@ -28,6 +28,7 @@ Smart Expense Splitter is a full-stack web application designed to help groups o
 ---
 
 ## 🗂️ Project Structure
+```bash
 SES/
 ├── src/
 │ ├── main/
@@ -41,7 +42,7 @@ SES/
 │ └── static/templates/ # (Optional frontend)
 ├── pom.xml # Maven configuration
 └── README.md
-
+```
 ---
 
 ## ⚙️ How It Works
