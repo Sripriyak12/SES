@@ -73,22 +73,24 @@ SES/
    - PostgreSQL running locally
 
 2. **Clone the repository**:
-   bash
+   ```bash
        git clone https://github.com/Sripriyak12/SES.git
        cd SES
+   ```
 
 3.Update your application.properties:
-   bash
-    spring.datasource.url=jdbc:postgresql://localhost:5432/smartsplitdb
-    spring.datasource.username=your_username
-    spring.datasource.password=your_password
-    spring.jpa.hibernate.ddl-auto=update
-
+   ```bash
+       spring.datasource.url=jdbc:postgresql://localhost:5432/smartsplitdb
+       spring.datasource.username=your_username
+       spring.datasource.password=your_password
+       spring.jpa.hibernate.ddl-auto=update
+   ```
 
 4.Build and run the project:
-   bash
-     mvn clean install
-     mvn spring-boot:run
+   ```bash
+        mvn clean install
+        mvn spring-boot:run
+   ```
 
 
 ## 📌 To-Do / Future Enhancements
@@ -103,7 +105,8 @@ SES/
 
 ## 🧑‍💻 Author
 -K Lakshmi Sripriya
-📍 Palakollu, West Godavari
+
+-📍 Palakollu, West Godavari
 
 ## 📃 License
 - This project is licensed under the MIT License.
